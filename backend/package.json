@@ -6,9 +6,6 @@
     "scripts": {
       "start": "node server.js"
     },
-    "engines": {
-      "node": "14.x"
-    },
     "dependencies": {
       "bootstrap": "^5.3.2",
       "cors": "^2.8.5",
