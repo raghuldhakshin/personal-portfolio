@@ -4,6 +4,7 @@
     "description": "Node.js server for your React app",
     "main": "server.js",
     "scripts": {
+      "build": "npm install"  
       "start": "node server.js"
     },
     "dependencies": {
