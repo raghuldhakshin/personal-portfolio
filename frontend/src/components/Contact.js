@@ -29,7 +29,7 @@ export const Contact = () => {
     setButtonText("Sending...");
   
     // Update the API endpoint to the dynamically assigned Vercel URL
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'; // Replace with your actual Vercel app URL
+    const apiUrl = "https://personal-portfolio-backend-abvw.onrender.com"; // Replace with your actual Vercel app URL
   
     try {
       let response = await fetch(`${apiUrl}/contact/`, {
